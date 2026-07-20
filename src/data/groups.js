@@ -6,6 +6,7 @@ import { FZ178_TESTS } from "./group4_fz178";
 import { PP1390_TESTS } from "./group4_pp1390";
 import { DISC_TESTS } from "./group5_disciplina";
 import { ROSMOL_TESTS } from "./rosmolodezh";
+import { ROSMOL_FORUMS_TESTS } from "./rosmol_forums";
 import { DATES_TESTS } from "./daty";
 import { PROFKOM_TESTS } from "./profkom_vshte";
 import { MIX_TESTS } from "./proshlye_etapy";
@@ -22,7 +23,7 @@ export const GROUPS = [
   { id: "g3", n: 3, title: "Группа 3 — Деятельность студенческих общежитий", short: "Общежития", tests: DORM_TESTS },
 { id: "g4", n: 4, title: "Группа 4 — Стипендиальное обеспечение", short: "Стипендии", tests: [...STIPEND_TESTS, ...FZ178_TESTS, ...PP1390_TESTS] },
   { id: "g5", n: 5, title: "Группа 5 — Дисциплинарные взыскания", short: "Дисциплинарные", tests: DISC_TESTS },
-  { id: "rosmol", n: "🎯", title: "Росмолодёжь — Гранты, номинации, условия конкурса", short: "Росмолодёжь", tests: ROSMOL_TESTS },
+  { id: "rosmol", n: "🎯", title: "Росмолодёжь — Гранты, номинации, условия конкурса", short: "Росмолодёжь", tests: [...ROSMOL_TESTS, ...ROSMOL_FORUMS_TESTS] },
   { id: "profkom", n: "🏛", title: "Профком ВШТЭ — тесты для подготовки к конкурсу", short: "Профком ВШТЭ", tests: PROFKOM_TESTS },
   { id: "dates", n: "📅", title: "Памятные даты — профсоюзные, студенческие, государственные, ФЗ-32", short: "Даты", tests: DATES_TESTS },
   { id: "mix", n: "★", title: "Прошлые этапы конкурса — сборные тесты по всем темам", short: "Прошлые этапы", tests: MIX_TESTS },
