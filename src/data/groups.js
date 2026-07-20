@@ -30,10 +30,7 @@ export const GROUPS = [
   { id: "dates", n: "📅", title: "Памятные даты — профсоюзные, студенческие, государственные, ФЗ-32", short: "Даты", tests: DATES_TESTS },
   { id: "mix", n: "★", title: "Прошлые этапы конкурса — сборные тесты по всем темам", short: "Прошлые этапы", tests: MIX_TESTS },
   { id: 'mix', title: '...', tests: [...] },
-  {
-    id: 'molpolitika',
+  { id: 'molpolitika',
     title: 'Молодёжная политика',
-    tests: [...FZ7_TESTS, ...FZ82_TESTS],
-  },
-];
+    tests: [...FZ7_TESTS, ...FZ82_TESTS]},
 ];
