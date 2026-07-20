@@ -19,7 +19,7 @@ export const GROUPS = [
   { id: "g1", n: 1, title: "Группа 1 — Деятельность Профсоюза и СКС Профсоюза", short: "Профсоюз и СКС", tests: [...USTAV_TESTS, ...SKS_TESTS, ...FZ10_TESTS] },
   { id: "g2", n: 2, title: "Группа 2 — Деятельность в сфере образования", short: "Образование", tests: EDU_TESTS },
   { id: "g3", n: 3, title: "Группа 3 — Деятельность студенческих общежитий", short: "Общежития", tests: DORM_TESTS },
-  { id: "g4", n: 4, title: "Группа 4 — Стипендиальное обеспечение", short: "Стипендии", tests: [...STIPEND_TESTS, ...FZ178_TESTS]
+  { id: "g4", n: 4, title: "Группа 4 — Стипендиальное обеспечение", short: "Стипендии", tests: [...STIPEND_TESTS, ...FZ178_TESTS] },
   { id: "g5", n: 5, title: "Группа 5 — Дисциплинарные взыскания", short: "Дисциплинарные", tests: DISC_TESTS },
   { id: "rosmol", n: "🎯", title: "Росмолодёжь — Гранты, номинации, условия конкурса", short: "Росмолодёжь", tests: ROSMOL_TESTS },
   { id: "profkom", n: "🏛", title: "Профком ВШТЭ — тесты для подготовки к конкурсу", short: "Профком ВШТЭ", tests: PROFKOM_TESTS },
