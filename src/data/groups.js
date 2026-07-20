@@ -28,9 +28,6 @@ export const GROUPS = [
   { id: "rosmol", n: "🎯", title: "Росмолодёжь — Гранты, номинации, условия конкурса", short: "Росмолодёжь", tests: [...ROSMOL_TESTS, ...ROSMOL_FORUMS_TESTS] },
   { id: "profkom", n: "🏛", title: "Профком ВШТЭ — тесты для подготовки к конкурсу", short: "Профком ВШТЭ", tests: PROFKOM_TESTS },
   { id: "dates", n: "📅", title: "Памятные даты — профсоюзные, студенческие, государственные, ФЗ-32", short: "Даты", tests: DATES_TESTS },
-  { id: "mix", n: "★", title: "Прошлые этапы конкурса — сборные тесты по всем темам", short: "Прошлые этапы", tests: MIX_TESTS },
-  { id: 'mix', title: '...', tests: [...] },
-  { id: 'molpolitika',
-    title: 'Молодёжная политика',
-    tests: [...FZ7_TESTS, ...FZ82_TESTS]},
+{ id: "mix", n: "★", title: "Прошлые этапы конкурса — сборные тесты по всем темам", short: "Прошлые этапы", tests: MIX_TESTS },
+  { id: "molpolitika", n: "🏳", title: "Молодёжная политика — НКО и общественные объединения", short: "Молодёжная политика", tests: [...FZ7_TESTS, ...FZ82_TESTS] },
 ];
