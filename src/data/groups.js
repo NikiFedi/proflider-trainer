@@ -23,7 +23,7 @@ import { MIX_TESTS } from "./proshlye_etapy";
 //    либо создай новую запись в GROUPS.
 
 export const GROUPS = [
-  { id: "g1", n: 1, title: "Группа 1 — Деятельность Профсоюза и СКС Профсоюза", short: "Профсоюз и СКС", tests: [...USTAV_TESTS, ...SKS_TESTS, ...FZ10_TESTS, ...PROFVZNOSY_TESTS, ...KRK_POLOJENIE_2025_TESTS, ...PRINCIPY_IMUSHESTVA_2025_TESTS] },
+ { id: "g1", n: 1, title: "Группа 1 — Деятельность Профсоюза и СКС Профсоюза", short: "Профсоюз и СКС", tests: [...USTAV_TESTS, ...SKS_TESTS, ...FZ10_TESTS, ...PROFVZNOSY_TESTS, ...KRK_POLOJENIE_2025_TESTS, ...PRINCIPY_IMUSHESTVA_2025_TESTS] },
   { id: "g2", n: 2, title: "Группа 2 — Деятельность в сфере образования", short: "Образование", tests: EDU_TESTS },
   { id: "g3", n: 3, title: "Группа 3 — Деятельность студенческих общежитий", short: "Общежития", tests: DORM_TESTS },
 { id: "g4", n: 4, title: "Группа 4 — Стипендиальное обеспечение", short: "Стипендии", tests: [...STIPEND_TESTS, ...FZ178_TESTS, ...PP1390_TESTS] },
