@@ -3,6 +3,7 @@ import { FZ82_TESTS } from './fz82_obshestvennye_obyedineniya.js';
 import { USTAV_TESTS, SKS_TESTS, FZ10_TESTS } from "./group1_profsoyuz";
 import { PROFVZNOSY_TESTS } from "./group1_profvznosy";
 import { KRK_POLOJENIE_2025_TESTS } from "./krk_polojenie_2025";
+import { PRINCIPY_IMUSHESTVA_2025_TESTS } from "./principy_imushestva_2025";
 import { EDU_TESTS } from "./group2_obrazovanie";
 import { DORM_TESTS } from "./group3_obshezhitiya";
 import { STIPEND_TESTS } from "./group4_stipendii";
@@ -22,7 +23,7 @@ import { MIX_TESTS } from "./proshlye_etapy";
 //    либо создай новую запись в GROUPS.
 
 export const GROUPS = [
-  { id: "g1", n: 1, title: "Группа 1 — Деятельность Профсоюза и СКС Профсоюза", short: "Профсоюз и СКС", tests: [...USTAV_TESTS, ...SKS_TESTS, ...FZ10_TESTS, ...PROFVZNOSY_TESTS, ...KRK_POLOJENIE_2025_TESTS] },
+  // { id: "g1", n: 1, title: "Группа 1 — Деятельность Профсоюза и СКС Профсоюза", short: "Профсоюз и СКС", tests: [...USTAV_TESTS, ...SKS_TESTS, ...FZ10_TESTS, ...PROFVZNOSY_TESTS, ...KRK_POLOJENIE_2025_TESTS, ...PRINCIPY_IMUSHESTVA_2025_TESTS] },
   { id: "g2", n: 2, title: "Группа 2 — Деятельность в сфере образования", short: "Образование", tests: EDU_TESTS },
   { id: "g3", n: 3, title: "Группа 3 — Деятельность студенческих общежитий", short: "Общежития", tests: DORM_TESTS },
 { id: "g4", n: 4, title: "Группа 4 — Стипендиальное обеспечение", short: "Стипендии", tests: [...STIPEND_TESTS, ...FZ178_TESTS, ...PP1390_TESTS] },
