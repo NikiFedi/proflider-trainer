@@ -1,7 +1,6 @@
 import { FZ7_TESTS } from './fz7_nko.js';
 import { FZ82_TESTS } from './fz82_obshestvennye_obyedineniya.js';
 import { USTAV_TESTS, SKS_TESTS, FZ10_TESTS } from "./group1_profsoyuz";
-import { USTAV_TESTS, SKS_TESTS, FZ10_TESTS } from "./group1_profsoyuz";
 import { PROFVZNOSY_TESTS } from "./group1_profvznosy";
 import { EDU_TESTS } from "./group2_obrazovanie";
 import { DORM_TESTS } from "./group3_obshezhitiya";
