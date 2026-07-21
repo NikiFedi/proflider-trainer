@@ -21,6 +21,7 @@ import { PROFKOM_TESTS } from "./profkom_vshte";
 import { MIX_TESTS } from "./proshlye_etapy";
 import { STRATEGIYA_MP_2030_TESTS } from "./strategiya_mp_2030";
 import { FZ115_MIGRACIYA_TESTS } from "./migracionnaya_politika";
+import { FZ109_MIGRAUCHET_TESTS } from "./fz109_migracionny_uchet";
 
 // Чтобы добавить новую группу или тест:
 // 1. Создай новый файл src/data/имя_файла.js с export const MY_TESTS = [ {id, title, subtitle, questions:[...]} ];
@@ -39,5 +40,5 @@ export const GROUPS = [
   { id: "dates", n: "📅", title: "Памятные даты — профсоюзные, студенческие, государственные, ФЗ-32", short: "Даты", tests: DATES_TESTS },
 { id: "mix", n: "★", title: "Прошлые этапы конкурса — сборные тесты по всем темам", short: "Прошлые этапы", tests: MIX_TESTS },
  { id: "molpolitika", n: "🏳", title: "Молодёжная политика — НКО и общественные объединения", short: "Молодёжная политика", tests: [...FZ7_TESTS, ...FZ82_TESTS, ...FZ489_MOLODEZH_POLITIKA_TESTS, ...UKAZ_309_NATSCELI_TESTS, ...STRATEGIYA_MP_2030_TESTS] },
- { id: "migracia", n: "🛂", title: "Миграционная политика — ФЗ-115 о правовом положении иностранных граждан", short: "Миграционная политика", tests: FZ115_MIGRACIYA_TESTS },
+ { id: "migracia", n: "🛂", title: "Миграционная политика — ФЗ-115, ФЗ-109", short: "Миграционная политика", tests: [...FZ115_MIGRACIYA_TESTS, ...FZ109_MIGRAUCHET_TESTS] },
 ];
