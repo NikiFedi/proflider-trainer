@@ -19,6 +19,7 @@ import { ROSMOL_FORUMS_TESTS } from "./rosmol_forums";
 import { DATES_TESTS } from "./daty";
 import { PROFKOM_TESTS } from "./profkom_vshte";
 import { MIX_TESTS } from "./proshlye_etapy";
+import { STRATEGIYA_MP_2030_TESTS } from "./strategiya_mp_2030";
 
 // Чтобы добавить новую группу или тест:
 // 1. Создай новый файл src/data/имя_файла.js с export const MY_TESTS = [ {id, title, subtitle, questions:[...]} ];
@@ -36,5 +37,5 @@ export const GROUPS = [
   { id: "profkom", n: "🏛", title: "Профком ВШТЭ — тесты для подготовки к конкурсу", short: "Профком ВШТЭ", tests: PROFKOM_TESTS },
   { id: "dates", n: "📅", title: "Памятные даты — профсоюзные, студенческие, государственные, ФЗ-32", short: "Даты", tests: DATES_TESTS },
 { id: "mix", n: "★", title: "Прошлые этапы конкурса — сборные тесты по всем темам", short: "Прошлые этапы", tests: MIX_TESTS },
- { id: "molpolitika", n: "🏳", title: "Молодёжная политика — НКО и общественные объединения", short: "Молодёжная политика", tests: [...FZ7_TESTS, ...FZ82_TESTS, ...FZ489_MOLODEZH_POLITIKA_TESTS, ...UKAZ_309_NATSCELI_TESTS] },
+ { id: "molpolitika", n: "🏳", title: "Молодёжная политика — НКО и общественные объединения", short: "Молодёжная политика", tests: [...FZ7_TESTS, ...FZ82_TESTS, ...FZ489_MOLODEZH_POLITIKA_TESTS, ...UKAZ_309_NATSCELI_TESTS, ...STRATEGIYA_MP_2030_TESTS] },
 ];
