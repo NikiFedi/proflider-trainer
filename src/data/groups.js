@@ -1,5 +1,6 @@
 import { FZ7_TESTS } from './fz7_nko.js';
 import { FZ82_TESTS } from './fz82_obshestvennye_obyedineniya.js';
+import { FZ489_MOLODEZH_POLITIKA_TESTS } from "./fz489_molodezh_politika";
 import { USTAV_TESTS, SKS_TESTS, FZ10_TESTS } from "./group1_profsoyuz";
 import { PROFVZNOSY_TESTS } from "./group1_profvznosy";
 import { KRK_POLOJENIE_2025_TESTS } from "./krk_polojenie_2025";
@@ -34,5 +35,5 @@ export const GROUPS = [
   { id: "profkom", n: "🏛", title: "Профком ВШТЭ — тесты для подготовки к конкурсу", short: "Профком ВШТЭ", tests: PROFKOM_TESTS },
   { id: "dates", n: "📅", title: "Памятные даты — профсоюзные, студенческие, государственные, ФЗ-32", short: "Даты", tests: DATES_TESTS },
 { id: "mix", n: "★", title: "Прошлые этапы конкурса — сборные тесты по всем темам", short: "Прошлые этапы", tests: MIX_TESTS },
-  { id: "molpolitika", n: "🏳", title: "Молодёжная политика — НКО и общественные объединения", short: "Молодёжная политика", tests: [...FZ7_TESTS, ...FZ82_TESTS] },
+ { id: "molpolitika", n: "🏳", title: "Молодёжная политика — НКО и общественные объединения", short: "Молодёжная политика", tests: [...FZ7_TESTS, ...FZ82_TESTS, ...FZ489_MOLODEZH_POLITIKA_TESTS] },
 ];
