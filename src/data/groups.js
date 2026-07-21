@@ -6,6 +6,7 @@ import { KRK_POLOJENIE_2025_TESTS } from "./krk_polojenie_2025";
 import { PRINCIPY_IMUSHESTVA_2025_TESTS } from "./principy_imushestva_2025";
 import { EDU_TESTS } from "./group2_obrazovanie";
 import { DORM_TESTS } from "./group3_obshezhitiya";
+import { PP42_OBSHEZHITIYA_TESTS } from "./pp42_obshezhitiya";
 import { STIPEND_TESTS } from "./group4_stipendii";
 import { FZ178_TESTS } from "./group4_fz178";
 import { PP1390_TESTS } from "./group4_pp1390";
@@ -25,7 +26,7 @@ import { MIX_TESTS } from "./proshlye_etapy";
 export const GROUPS = [
  { id: "g1", n: 1, title: "Группа 1 — Деятельность Профсоюза и СКС Профсоюза", short: "Профсоюз и СКС", tests: [...USTAV_TESTS, ...SKS_TESTS, ...FZ10_TESTS, ...PROFVZNOSY_TESTS, ...KRK_POLOJENIE_2025_TESTS, ...PRINCIPY_IMUSHESTVA_2025_TESTS] },
   { id: "g2", n: 2, title: "Группа 2 — Деятельность в сфере образования", short: "Образование", tests: EDU_TESTS },
-  { id: "g3", n: 3, title: "Группа 3 — Деятельность студенческих общежитий", short: "Общежития", tests: DORM_TESTS },
+{ id: "g3", n: 3, title: "Группа 3 — Деятельность студенческих общежитий", short: "Общежития", tests: [...DORM_TESTS, ...PP42_OBSHEZHITIYA_TESTS] },
 { id: "g4", n: 4, title: "Группа 4 — Стипендиальное обеспечение", short: "Стипендии", tests: [...STIPEND_TESTS, ...FZ178_TESTS, ...PP1390_TESTS] },
   { id: "g5", n: 5, title: "Группа 5 — Дисциплинарные взыскания", short: "Дисциплинарные", tests: DISC_TESTS },
   { id: "rosmol", n: "🎯", title: "Росмолодёжь — Гранты, номинации, условия конкурса", short: "Росмолодёжь", tests: [...ROSMOL_TESTS, ...ROSMOL_FORUMS_TESTS] },
